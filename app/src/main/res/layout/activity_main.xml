@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="289dp"
+        android:layout_height="218dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/mastermind_logo" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="133dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="24dp"
+        android:text="PLAY"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:background="@color/btn_color"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/howToPlayButton"
+        android:layout_width="201dp"
+        android:layout_height="74dp"
+        android:text="HOW TO PLAY"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:background="@color/btn_color"
+        android:textSize="24sp" />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <!-- No data variables are required since we're just setting static text -->
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@drawable/background_image">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_arrow"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="8dp"
+            android:layout_gravity="start" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/howToPlayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RULES"
+            android:textAllCaps="true"
+            android:textSize="27dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/rulesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            android:elevation="4dp"
+            android:layout_margin="16dp"
+            android:fontFamily="casual" />
+    </LinearLayout>
+</layout>
