@@ -55,5 +55,12 @@ If the target string is `"ABCD"` and the player guesses `"A", "X", "B", "C"`, th
 - `"C"` is in the correct position → **GREEN**.
 
   ## Screenshots
-  
+  ![Main Screenshot](https://github.com/joannatufkova/MastermingSampleGame/blob/main/main_screen.png)
+  ![How_To_Play Screenshot](https://github.com/joannatufkova/MastermingSampleGame/blob/main/how_to_play.png)
+  ![Play Screenshot](https://github.com/joannatufkova/MastermingSampleGame/blob/main/play_screen.png)
+  ![Final Screenshot](https://github.com/joannatufkova/MastermingSampleGame/blob/main/final_screen.png))
+
+
+
+
 
